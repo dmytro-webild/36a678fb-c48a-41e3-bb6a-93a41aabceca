@@ -8,7 +8,7 @@ import FooterBase from "@/components/sections/footer/FooterBase";
 
 export default function ContactPage() {
   return (
-    <ThemeProvider>
+    <ThemeProvider defaultButtonVariant="hover-magnetic" defaultTextAnimation="entrance-slide" borderRadius="rounded" contentWidth="medium" sizing="medium" background="circleGradient" cardStyle="glass-elevated" primaryButtonStyle="gradient" secondaryButtonStyle="glass" headingFontWeight="normal">
       <ReactLenis root>
         <NavbarLayoutFloatingOverlay
           brandName="Webild"
@@ -17,13 +17,13 @@ export default function ContactPage() {
             { name: "About", id: "/about" },
             { name: "Contact", id: "/contact" },
           ]}
-          button={{ text: "Get Started", href: "/contact" }}
         />
         <ContactSplit
           tag="Contact Us"
           title="Let's Build Something Great"
           description="Fill out the form and our team will get back to you shortly."
           background={{ variant: "canvas-reveal" }}
+          useInvertedBackground={false}
         />
         <FooterBase
           logoText="Webild"
