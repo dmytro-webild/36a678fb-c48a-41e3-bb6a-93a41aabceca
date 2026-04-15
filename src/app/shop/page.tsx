@@ -5,15 +5,13 @@ import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import NavbarLayoutFloatingOverlay from "@/components/navbar/NavbarLayoutFloatingOverlay/NavbarLayoutFloatingOverlay";
 import ProductCardTwo from "@/components/sections/product/ProductCardTwo";
 import FooterBase from "@/components/sections/footer/FooterBase";
-import { useState } from "react";
 
 export default function ShopPage() {
   const navItems = [
-    { name: "Work", id: "/#work" },
-    { name: "Services", id: "/#services" },
+    { name: "Home", id: "/" },
+    { name: "About", id: "/about" },
     { name: "Shop", id: "/shop" },
-    { name: "About", id: "/#about" },
-    { name: "Contact", id: "/#contact" },
+    { name: "Contact", id: "/contact" },
   ];
 
   const products = [
@@ -24,7 +22,7 @@ export default function ShopPage() {
   ];
 
   return (
-    <ThemeProvider>
+    <ThemeProvider defaultButtonVariant="hover-magnetic" defaultTextAnimation="entrance-slide" borderRadius="rounded" contentWidth="medium" sizing="medium" background="circleGradient" cardStyle="glass-elevated" primaryButtonStyle="gradient" secondaryButtonStyle="glass" headingFontWeight="normal">
       <ReactLenis root>
         <NavbarLayoutFloatingOverlay
           brandName="Webild"
@@ -38,6 +36,7 @@ export default function ShopPage() {
                 animationType="slide-up"
                 textboxLayout="default"
                 products={products}
+                useInvertedBackground={false}
             />
         </main>
         <FooterBase
