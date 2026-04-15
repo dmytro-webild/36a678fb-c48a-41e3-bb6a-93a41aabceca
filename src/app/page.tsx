@@ -48,14 +48,14 @@ export default function WebAgency2Page() {
             buttonAnimation="slide-up"
             carouselPosition="right"
             leftCarouselItems={[
-              { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CPXYoyZJTsHDV77AkH6Frx8zJE/uploaded-1776288518589-mk7foiz2.jpg", imageAlt: "Creative work 1" },
-              { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CPXYoyZJTsHDV77AkH6Frx8zJE/uploaded-1776288518590-f3r2nerr.jpg", imageAlt: "Creative work 2" },
-              { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CPXYoyZJTsHDV77AkH6Frx8zJE/uploaded-1776288518590-x02za3p3.jpg", imageAlt: "Creative work 3" },
+              { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CPXYoyZJTsHDV77AkH6Frx8zJE/uploaded-1776288518589-mk7foiz2.jpg?_wi=1", imageAlt: "Creative work 1" },
+              { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CPXYoyZJTsHDV77AkH6Frx8zJE/uploaded-1776288518590-f3r2nerr.jpg?_wi=1", imageAlt: "Creative work 2" },
+              { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CPXYoyZJTsHDV77AkH6Frx8zJE/uploaded-1776288518590-x02za3p3.jpg?_wi=1", imageAlt: "Creative work 3" },
             ]}
             rightCarouselItems={[
-              { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CPXYoyZJTsHDV77AkH6Frx8zJE/uploaded-1776288518589-mk7foiz2.jpg", imageAlt: "Creative work 4" },
-              { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CPXYoyZJTsHDV77AkH6Frx8zJE/uploaded-1776288518590-f3r2nerr.jpg", imageAlt: "Creative work 5" },
-              { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CPXYoyZJTsHDV77AkH6Frx8zJE/uploaded-1776288518590-x02za3p3.jpg", imageAlt: "Creative work 6" },
+              { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CPXYoyZJTsHDV77AkH6Frx8zJE/uploaded-1776288518589-mk7foiz2.jpg?_wi=2", imageAlt: "Creative work 4" },
+              { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CPXYoyZJTsHDV77AkH6Frx8zJE/uploaded-1776288518590-f3r2nerr.jpg?_wi=2", imageAlt: "Creative work 5" },
+              { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CPXYoyZJTsHDV77AkH6Frx8zJE/uploaded-1776288518590-x02za3p3.jpg?_wi=2", imageAlt: "Creative work 6" },
             ]}
             carouselItemClassName="!aspect-[4/5]"
           />
@@ -74,16 +74,16 @@ export default function WebAgency2Page() {
               },
               {
                 title: "Web Development",                description: "Custom-built websites that are fast, responsive, and designed to convert.",                bentoComponent: "media-stack",                items: [
-                  { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CPXYoyZJTsHDV77AkH6Frx8zJE/uploaded-1776288518589-mk7foiz2.jpg", imageAlt: "Development 1" },
-                  { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CPXYoyZJTsHDV77AkH6Frx8zJE/uploaded-1776288518590-f3r2nerr.jpg", imageAlt: "Development 2" },
-                  { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CPXYoyZJTsHDV77AkH6Frx8zJE/uploaded-1776288518590-x02za3p3.jpg", imageAlt: "Development 3" },
+                  { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CPXYoyZJTsHDV77AkH6Frx8zJE/uploaded-1776288518589-mk7foiz2.jpg?_wi=3", imageAlt: "Development 1" },
+                  { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CPXYoyZJTsHDV77AkH6Frx8zJE/uploaded-1776288518590-f3r2nerr.jpg?_wi=3", imageAlt: "Development 2" },
+                  { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CPXYoyZJTsHDV77AkH6Frx8zJE/uploaded-1776288518590-x02za3p3.jpg?_wi=3", imageAlt: "Development 3" },
                 ],
               },
               {
                 title: "Branding",                description: "Build a memorable brand identity that resonates with your audience.",                bentoComponent: "media-stack",                items: [
-                  { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CPXYoyZJTsHDV77AkH6Frx8zJE/uploaded-1776288518590-x02za3p3.jpg", imageAlt: "Branding 1" },
-                  { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CPXYoyZJTsHDV77AkH6Frx8zJE/uploaded-1776288518589-mk7foiz2.jpg", imageAlt: "Branding 2" },
-                  { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CPXYoyZJTsHDV77AkH6Frx8zJE/uploaded-1776288518590-f3r2nerr.jpg", imageAlt: "Branding 3" },
+                  { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CPXYoyZJTsHDV77AkH6Frx8zJE/uploaded-1776288518590-x02za3p3.jpg?_wi=4", imageAlt: "Branding 1" },
+                  { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CPXYoyZJTsHDV77AkH6Frx8zJE/uploaded-1776288518589-mk7foiz2.jpg?_wi=4", imageAlt: "Branding 2" },
+                  { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CPXYoyZJTsHDV77AkH6Frx8zJE/uploaded-1776288518590-f3r2nerr.jpg?_wi=4", imageAlt: "Branding 3" },
                 ],
               },
             ]}
@@ -98,11 +98,11 @@ export default function WebAgency2Page() {
             cardClassName="!h-auto aspect-video"
             features={[
               {
-                title: "Client Showcase 1",                description: "High performance landing page",                imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CPXYoyZJTsHDV77AkH6Frx8zJE/uploaded-1776288518589-mk7foiz2.jpg",                imageAlt: "Project 1",                buttonIcon: ArrowUpRight,
+                title: "Client Showcase 1",                description: "High performance landing page",                imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CPXYoyZJTsHDV77AkH6Frx8zJE/uploaded-1776288518589-mk7foiz2.jpg?_wi=5",                imageAlt: "Project 1",                buttonIcon: ArrowUpRight,
                 buttonHref: "#"
               },
               {
-                title: "Client Showcase 2",                description: "Modern interface design",                imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CPXYoyZJTsHDV77AkH6Frx8zJE/uploaded-1776288518590-f3r2nerr.jpg",                imageAlt: "Project 2",                buttonIcon: ArrowUpRight,
+                title: "Client Showcase 2",                description: "Modern interface design",                imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CPXYoyZJTsHDV77AkH6Frx8zJE/uploaded-1776288518590-f3r2nerr.jpg?_wi=5",                imageAlt: "Project 2",                buttonIcon: ArrowUpRight,
                 buttonHref: "#"
               }
             ]}
