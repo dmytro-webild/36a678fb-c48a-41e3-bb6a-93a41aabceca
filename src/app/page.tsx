@@ -13,7 +13,7 @@ import FaqBase from "@/components/sections/faq/FaqBase";
 import ContactCTA from "@/components/sections/contact/ContactCTA";
 import FooterBase from "@/components/sections/footer/FooterBase";
 import TestimonialCardFifteen from "@/components/sections/testimonial/TestimonialCardFifteen";
-import { Sparkles, Search, ArrowUpRight, Monitor, Shield, Zap, Puzzle, TrendingUp, Lock, Phone, MessageCircle, BookOpen, Tv, Camera, Music, Settings, Award, Users } from "lucide-react";
+import { Sparkles, Search, ArrowUpRight } from "lucide-react";
 
 export default function WebAgency2Page() {
   return (
@@ -39,85 +39,73 @@ export default function WebAgency2Page() {
           ]}
           button={{ text: "Get Started", href: "/contact" }}
         />
-        <HeroSplitDoubleCarousel
-          title="We Build Digital Experiences"
-          description="Transform your brand with cutting-edge web design and development. We craft stunning websites that convert visitors into customers."
-          tag="Award-Winning Agency"
-          tagIcon={Sparkles}
-          tagAnimation="slide-up"
-          background={{ variant: "canvas-reveal" }}
-          buttons={[
-            { text: "Start Project", href: "/contact" },
-            { text: "View About", href: "/about" },
-          ]}
-          buttonAnimation="slide-up"
-          carouselPosition="right"
-          leftCarouselItems={[
-            { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/templates/web-agency-2/shot-1.webp", imageAlt: "UI UX Design - Daily Life app" },
-            { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/templates/web-agency-2/shot-4.webp", imageAlt: "UI UX Design - SaaS platform" },
-            { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/templates/web-agency-2/shot-6.webp", imageAlt: "UI UX Design - Luminé skincare" },
-            { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/templates/web-agency-2/shot-7.webp", imageAlt: "UI UX Design - Online courses" },
-            { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/templates/web-agency-2/shot-9.webp", imageAlt: "UI UX Design - Business coach" },
-          ]}
-          rightCarouselItems={[
-            { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/templates/web-agency-2/shot-2.webp", imageAlt: "UI UX Design - Luxuria travel" },
-            { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/templates/web-agency-2/shot-5.webp", imageAlt: "UI UX Design - Dental practice" },
-            { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/templates/web-agency-2/shot-3.webp", imageAlt: "UI UX Design - AI product builder" },
-            { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/templates/web-agency-2/shot-8.webp", imageAlt: "UI UX Design - AI automation" },
-          ]}
-          carouselItemClassName="!aspect-[4/5]"
-        />
-        <FeatureBento
-          title="Our Services"
-          description="We offer a full suite of digital services to help your brand stand out online."
-          textboxLayout="default"
-          useInvertedBackground={false}
-          animationType="slide-up"
-          features={[
-            {
-              title: "SEO",              description: "We optimize your website to rank higher on search engines and drive organic traffic.",              bentoComponent: "marquee",              centerIcon: Search,
-              variant: "text",              texts: ["Keywords", "Backlinks", "Meta Tags", "Organic Traffic", "Rankings", "Analytics", "SERP", "Indexing"],
-            },
-            {
-              title: "Web Development",              description: "Custom-built websites that are fast, responsive, and designed to convert.",              bentoComponent: "media-stack",              items: [
-                { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/templates/web-agency-2/dev-2.webp", imageAlt: "Web project - AgentFlow AI platform" },
-                { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/templates/web-agency-2/dev-1.webp", imageAlt: "Web project - Architecture studio" },
-                { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/templates/web-agency-2/dev-3.webp", imageAlt: "Web project - Summit Roofing" },
-              ],
-            },
-            {
-              title: "Branding",              description: "Build a memorable brand identity that resonates with your audience.",              bentoComponent: "media-stack",              items: [
-                { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/templates/web-agency-2/shot-1.webp", imageAlt: "Brand project 1" },
-                { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/templates/web-agency-2/shot-2.webp", imageAlt: "Brand project 2" },
-                { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/templates/web-agency-2/shot-4.webp", imageAlt: "Brand project 3" },
-              ],
-            },
-          ]}
-        />
-        <FeatureCardTwentySix
-          title="Our Work"
-          description="A selection of projects we've crafted for clients across industries."
-          textboxLayout="default"
-          useInvertedBackground={false}
-          cardClassName="!h-auto aspect-video"
-          features={[
-            {
-              title: "Umbra Skincare",              description: "Luxury fragrance e-commerce",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/templates/web-agency-2/project-1.webp",              imageAlt: "Umbra Skincare website",              buttonIcon: ArrowUpRight,
-              buttonHref: "#"},
-            {
-              title: "Luxuria Travel",              description: "Bespoke luxury travel experiences",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/templates/web-agency-2/project-2.webp",              imageAlt: "Luxuria Travel website",              buttonIcon: ArrowUpRight,
-              buttonHref: "#"},
-            {
-              title: "Dental Care",              description: "Premier dental practice",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/templates/web-agency-2/project-3.webp",              imageAlt: "Luxury Dental Care website",              buttonIcon: ArrowUpRight,
-              buttonHref: "#"},
-            {
-              title: "Summit Roofing",              description: "Professional roofing services",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/templates/web-agency-2/project-4.webp",              imageAlt: "Summit Roofing website",              buttonIcon: ArrowUpRight,
-              buttonHref: "#"},
-            {
-              title: "Dubai Real Estate",              description: "Luxury property listings",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/templates/web-agency-2/project-5.webp",              imageAlt: "Dubai Real Estate website",              buttonIcon: ArrowUpRight,
-              buttonHref: "#"},
-          ]}
-        />
+        <div id="hero">
+          <HeroSplitDoubleCarousel
+            title="We Build Digital Experiences"
+            description="Transform your brand with cutting-edge web design and development. We craft stunning websites that convert visitors into customers."
+            tag="Award-Winning Agency"
+            tagIcon={Sparkles}
+            tagAnimation="slide-up"
+            background={{ variant: "canvas-reveal" }}
+            buttons={[
+              { text: "Start Project", href: "/contact" },
+              { text: "View About", href: "/about" },
+            ]}
+            buttonAnimation="slide-up"
+            carouselPosition="right"
+            leftCarouselItems={[
+              { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CPXYoyZJTsHDV77AkH6Frx8zJE/uploaded-1776288518589-mk7foiz2.jpg", imageAlt: "Creative work 1" },
+              { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CPXYoyZJTsHDV77AkH6Frx8zJE/uploaded-1776288518590-f3r2nerr.jpg", imageAlt: "Creative work 2" },
+              { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CPXYoyZJTsHDV77AkH6Frx8zJE/uploaded-1776288518590-x02za3p3.jpg", imageAlt: "Creative work 3" },
+            ]}
+            rightCarouselItems={[
+              { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CPXYoyZJTsHDV77AkH6Frx8zJE/uploaded-1776288518589-mk7foiz2.jpg", imageAlt: "Creative work 4" },
+              { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CPXYoyZJTsHDV77AkH6Frx8zJE/uploaded-1776288518590-f3r2nerr.jpg", imageAlt: "Creative work 5" },
+            ]}
+            carouselItemClassName="!aspect-[4/5]"
+          />
+        </div>
+        <div id="features">
+          <FeatureBento
+            title="Our Services"
+            description="We offer a full suite of digital services to help your brand stand out online."
+            textboxLayout="default"
+            useInvertedBackground={false}
+            animationType="slide-up"
+            features={[
+              {
+                title: "SEO",                description: "We optimize your website to rank higher on search engines and drive organic traffic.",                bentoComponent: "marquee",                centerIcon: Search,
+                variant: "text",                texts: ["Keywords", "Backlinks", "Meta Tags", "Organic Traffic", "Rankings", "Analytics", "SERP", "Indexing"],
+              },
+              {
+                title: "Web Development",                description: "Custom-built websites that are fast, responsive, and designed to convert.",                bentoComponent: "media-stack",                items: [
+                  { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CPXYoyZJTsHDV77AkH6Frx8zJE/uploaded-1776288518589-mk7foiz2.jpg", imageAlt: "Development 1" },
+                  { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CPXYoyZJTsHDV77AkH6Frx8zJE/uploaded-1776288518590-f3r2nerr.jpg", imageAlt: "Development 2" },
+                ],
+              },
+              {
+                title: "Branding",                description: "Build a memorable brand identity that resonates with your audience.",                bentoComponent: "media-stack",                items: [
+                  { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CPXYoyZJTsHDV77AkH6Frx8zJE/uploaded-1776288518590-x02za3p3.jpg", imageAlt: "Branding 1" },
+                ],
+              },
+            ]}
+          />
+        </div>
+        <div id="work">
+          <FeatureCardTwentySix
+            title="Our Work"
+            description="A selection of projects we've crafted for clients across industries."
+            textboxLayout="default"
+            useInvertedBackground={false}
+            cardClassName="!h-auto aspect-video"
+            features={[
+              {
+                title: "Client Showcase 1",                description: "High performance landing page",                imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CPXYoyZJTsHDV77AkH6Frx8zJE/uploaded-1776288518589-mk7foiz2.jpg",                imageAlt: "Project 1",                buttonIcon: ArrowUpRight,
+                buttonHref: "#"
+              },
+            ]}
+          />
+        </div>
         <FooterBase
           logoText="Webild"
           copyrightText="© 2026 | Webild"
@@ -126,22 +114,6 @@ export default function WebAgency2Page() {
               title: "Company",              items: [
                 { label: "About", href: "/about" },
                 { label: "Contact", href: "/contact" },
-              ],
-            },
-            {
-              title: "Services",              items: [
-                { label: "Web Development", href: "#" },
-                { label: "SEO", href: "#" },
-                { label: "Branding", href: "#" },
-                { label: "UI/UX Design", href: "#" },
-              ],
-            },
-            {
-              title: "Connect",              items: [
-                { label: "Twitter", href: "#" },
-                { label: "LinkedIn", href: "#" },
-                { label: "Instagram", href: "#" },
-                { label: "Dribbble", href: "#" },
               ],
             },
           ]}
